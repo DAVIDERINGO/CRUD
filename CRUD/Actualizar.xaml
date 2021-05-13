@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CRUD.Actualizar">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                
+                <Entry x:Name="txtCodigo" Placeholder="Ingrese Codigo" ></Entry>
+                <Entry x:Name="txtNombre" Placeholder="Ingrese Nombre" ></Entry>
+                <Entry x:Name="txtApellido" Placeholder="Ingrese Apellido" ></Entry>
+                <Entry x:Name="txtEdad" Placeholder="Ingrese Edad" ></Entry>
+                <Entry x:Name="txtDireccion" Placeholder="Ingrese Direccion" ></Entry>
+                <Entry x:Name="txtTelefono" Placeholder="Ingrese Telefono" ></Entry>
+                <Entry x:Name="txtEstudio" Placeholder="Ingrese Estudio" ></Entry>
+                <Entry x:Name="txtFecha" Placeholder="Ingrese Fecha" ></Entry>
+                <Entry x:Name="txtHorario" Placeholder="Ingrese Horario" ></Entry>
+                <Entry x:Name="txtUsuario" Placeholder="Ingrese Usuario" ></Entry>
+                <Button x:Name="btnActualizar" Text="Actualizar" Clicked="btnActualizar_Clicked"></Button>
+                <Button x:Name="btnRegresar" Text="Regresar" Clicked="btnRegresar_Clicked"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

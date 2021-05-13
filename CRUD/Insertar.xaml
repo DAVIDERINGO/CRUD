@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CRUD.Insertar"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+           
+            <Entry x:Name="txtCodigo" Placeholder="Ingrese Codigo" ></Entry>
+            <Entry x:Name="txtNombre" Placeholder="Ingrese Nombre" ></Entry>
+            <Entry x:Name="txtApellido" Placeholder="Ingrese Apellido" ></Entry>
+            <Entry x:Name="txtEdad" Placeholder="Ingrese Edad" ></Entry>
+            <Entry x:Name="txtDireccion" Placeholder="Ingrese Direccion" ></Entry>
+            <Entry x:Name="txtTelefono" Placeholder="Ingrese Telefono" ></Entry>
+            <Entry x:Name="txtEstudio" Placeholder="Ingrese Estudio" ></Entry>
+            <Entry x:Name="txtFecha" Placeholder="Ingrese Fecha" ></Entry>
+            <Entry x:Name="txtHorario" Placeholder="Ingrese Horario" ></Entry>
+            <Entry x:Name="txtUsuario" Placeholder="Ingrese Usuario" ></Entry>
+
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+
+               
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition>
+                        
+                    </ColumnDefinition>
+                    <ColumnDefinition>
+
+                    </ColumnDefinition>
+
+                </Grid.ColumnDefinitions>
+                    
+            <Button Grid.Row="0" Grid.Column="0" x:Name="btnIngresar" Text="Insertar" Clicked="BtnIngresar_Clicked"></Button>
+            <Button Grid.Row="0" Grid.Column="1" x:Name="btnRegresar" Text="Regresar" Clicked="btnRegresar_Clicked"></Button>
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
